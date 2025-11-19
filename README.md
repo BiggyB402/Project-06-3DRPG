@@ -5,3 +5,6 @@
 # References to resources used in the project
 
 # Created by
+
+Shawn Eanes
+
