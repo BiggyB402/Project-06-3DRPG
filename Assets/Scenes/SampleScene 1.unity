@@ -469,7 +469,7 @@ GameObject:
   - component: {fileID: 56399338}
   - component: {fileID: 56399337}
   m_Layer: 0
-  m_Name: Plane (1)
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -767,7 +767,7 @@ GameObject:
   - component: {fileID: 208524432}
   - component: {fileID: 208524431}
   m_Layer: 0
-  m_Name: Prism
+  m_Name: Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1103,7 +1103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Chara
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Character
       Dialog","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.TextAsset,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
@@ -2287,6 +2287,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4313073705214427054, guid: 1e35ff0835be64341ba632879d4463ae,
+        type: 3}
+      propertyPath: m_ChildAlignment
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7809610077671754483, guid: 1e35ff0835be64341ba632879d4463ae,
         type: 3}
       propertyPath: m_Name
@@ -2318,7 +2323,7 @@ GameObject:
   - component: {fileID: 798487950}
   - component: {fileID: 798487949}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3497,7 +3502,7 @@ GameObject:
   - component: {fileID: 1531807801}
   - component: {fileID: 1531807800}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3991,6 +3996,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 653472628}
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 1531807805}
@@ -4001,4 +4007,3 @@ SceneRoots:
   - {fileID: 1725258193}
   - {fileID: 578231984}
   - {fileID: 1883083163}
-  - {fileID: 653472628}
