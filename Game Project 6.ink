@@ -3,8 +3,8 @@ About time you show up. I need your help with somethings around the farm.
 -> choices_2
 
 == choices ==
-* Why are your arms up for?
-  - - -Cause the damn programmer doesn't know what he's doing 
+* Why can't you do it? You Standing right there!
+  - - -Cause the programmer only made it so you could move, so that's why!
   -> choices
  * Why do I have to be one to do it?
  - - - Your the only loser, I mean, Hero that can do it!
@@ -13,7 +13,7 @@ About time you show up. I need your help with somethings around the farm.
  
 == choices_2 ==
 *Fine, tell me what I need to do.
-  - - - Take care of the rats in the barn for me.
+  - - - Take care of the cows in the barn for me.
   -> choices_2
   *Then what?
     - - - Then, collect about 10 apples for me, holding my arms is making me hungry.
