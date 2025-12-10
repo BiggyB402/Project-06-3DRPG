@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1635564059646322954}
   - component: {fileID: 879330190653919164}
   - component: {fileID: 5008921782204479313}
+  - component: {fileID: 3072404566897207687}
   m_Layer: 0
   m_Name: Apple
   m_TagString: Untagged
@@ -128,7 +129,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -149,3 +150,24 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!65 &3072404566897207687
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564409981975093781}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7507737, y: 1.8038585, z: 1.7361758}
+  m_Center: {x: 0, y: 0.21604133, z: 0}
